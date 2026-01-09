@@ -41,6 +41,9 @@ dependencies:
   react-dom:
     specifier: ^19
     version: 19.2.3(react@19.2.3)
+  react-to-print:
+    specifier: ^3.2.0
+    version: 3.2.0(react@19.2.3)
   tailwind-merge:
     specifier: ^3.4.0
     version: 3.4.0
@@ -1201,6 +1204,14 @@ packages:
     dependencies:
       react: 19.2.3
       scheduler: 0.27.0
+    dev: false
+
+  /react-to-print@3.2.0(react@19.2.3):
+    resolution: {integrity: sha512-IX2D0mebKMgYTBD6s5tf9B7YRL3RFWjRoevYK8JKgRwn94Rep7PFZyeOTGjCmXofKB1SKzvPSzDrAMG4I2PIwg==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ~19
+    dependencies:
+      react: 19.2.3
     dev: false
 
   /react@19.2.3:

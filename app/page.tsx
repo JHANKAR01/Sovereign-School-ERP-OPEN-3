@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Shield, FileSpreadsheet, CreditCard, Banknote, LayoutDashboard, Users } from 'lucide-react';
+import { Shield, FileSpreadsheet, CreditCard, Banknote, LayoutDashboard, Users, Award } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -38,6 +38,15 @@ export default function Home() {
             <h3 className="text-xl font-bold text-gray-900">Attendance</h3>
             <p className="text-gray-500 mt-2">Mark student attendance with geofencing.</p>
           </Link>
+
+          <Link href="/parent/report-card" className="group p-8 bg-white rounded-3xl shadow-sm border border-gray-200 hover:border-indigo-500 transition-all text-left">
+            <Award className="w-12 h-12 text-purple-600 mb-4 group-hover:scale-110 transition-transform" />
+            <h3 className="text-xl font-bold text-gray-900">Report Card</h3>
+            <p className="text-gray-500 mt-2">View and download academic performance reports.</p>
+          </Link>
+
+          <div className="p-8 bg-gray-100 rounded-3xl border border-gray-200 text-left opacity-60">
+          </div>
         </div>
 
         <div className="pt-12 border-t border-gray-200">
